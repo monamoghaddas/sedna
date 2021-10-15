@@ -131,6 +131,8 @@ input[type=text]:focus{
 @media only screen and (max-width: 600px){
   .item-info,.item-tags,.item-input,.item-add-btn {
     width: 100%;
+    padding: 10px;
+    text-align: center;
   }
   .item {
     flex-direction: column;
@@ -138,5 +140,8 @@ input[type=text]:focus{
   }
   .container{
     padding: 20px 20px;
+  }
+  .search-container{
+    justify-content: center;
   }
 }
